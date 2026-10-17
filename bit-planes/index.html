@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <title>Dogfight</title>
+<link href="df/dogfight.css?v=dca90761" rel="stylesheet">
+<link href="styles.css?cbf876f8b829df99df35" rel="stylesheet">
+<script data-mathtube-bridge src="/repairs/site-bridge.22d4e8267ad17cfc.js" defer></script>
+</head>
+<body>
+<main>
+    <section class="welcome">
+<!--        <div class="ribbon right green">-->
+<!--            <a href="https://github.com/antonmedv/bit-planes" tabindex="-1">Fork me on GitHub</a>-->
+<!--        </div>-->
+        <h1>
+            <i class="logo"></i>
+            Dogfight
+            <i class="logo"></i>
+        </h1>
+        <p>
+            <strong>Controls:</strong><br>
+        </p>
+        <ul>
+            <li>Arrows <kbd>↑</kbd><kbd>↓</kbd> — thrust level.</li>
+            <li>Arrows <kbd>←</kbd><kbd>→</kbd> — elevator controls.</li>
+            <li><kbd>Space</kbd> — fire a gun. <kbd>X</kbd> — deploy a missile.</li>
+            <li><kbd>C</kbd> — catapult / parachute and get new plane at the barn.</li>
+        </ul>
+
+        <form id="game">
+            <label>
+                <input type="text" name="nickname" placeholder="Nickname">
+            </label>
+            <p>
+                <strong>Game mode:</strong>
+            </p>
+            <div class="game-modes">
+                <div>
+                    <label title="Everyone against everyone."><input type="radio" name="mode" value="death-match" checked autofocus> Death match</label>
+                </div>
+                <div>
+                    <label title="Fight between teams."><input type="radio" name="mode" value="teams"> Teams</label>
+                </div>
+                <div>
+                    <label title="One on one duel."><input type="radio" name="mode" value="duel"> Duel</label>
+                </div>
+                <div>
+                    <label title="Survive with a waives of enemies."><input type="radio" name="mode" value="survival"> Survival</label>
+                </div>
+            </div>
+            <div class="action">
+                <button class="btn">‣ Start</button>
+            </div>
+        </form>
+
+        <div class="stats"></div>
+        <canvas class="demo"></canvas>
+    </section>
+</main>
+
+<div class="ui">
+    <div class="cockpit">
+        <div class="missile-capacity">
+            <div class="missile"></div>
+            <div class="missile"></div>
+        </div>
+        <div class="thrust">
+            <div class="thrust-level"></div>
+        </div>
+        <div class="ammo-capacity">
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+            <div class="ammo"></div>
+        </div>
+    </div>
+    <canvas class="minimap"></canvas>
+    <div class="log"></div>
+</div>
+<canvas id="canvas"></canvas>
+
+<script src="df/core.js?v=09fecc6f"></script>
+<script src="df/world.js?v=8df23df1"></script>
+<script src="df/weapons.js?v=af0897ff"></script>
+<script src="df/hud.js?v=bfb35c3f"></script>
+<script src="df/planes.js?v=e1805c28"></script>
+<script src="df/bots.js?v=39cfcccd"></script>
+<script src="df/flight.js?v=406d34f6"></script>
+<script type="text/javascript" src="index.js?24e96222a52f"></script>
+    <script src="mods.js?v=2"></script></body>
+</html>

@@ -1,0 +1,11 @@
+Asset credits for this offline build
+====================================
+
+webapp/car.png
+  Source: OpenGameArt.org — "Side View Cars Game Assets"
+  https://opengameart.org/content/side-view-cars-game-assets
+  License: CC0 1.0 (Public Domain Dedication)
+  File used: Game assets/Cars/4 - Super Car/Cars/car_1.png
+
+webapp/title.png
+  User-provided screenshot (custom title image), included as-is.
