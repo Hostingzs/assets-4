@@ -1,0 +1,30 @@
+var TEXT_PRELOADER_CONTINUE = "START";
+var TEXT_GAMEOVER  = "WINS";
+var TEXT_DRAW      = "DRAW";
+var TEXT_THINKING   = "THINKING";
+var TEXT_ARE_SURE = "ARE YOU SURE?";
+
+var TEXT_MODE      = "CHOOSE GAME MODE";
+var TEXT_DIFFICULTY = "DIFFICULTY";
+
+var TEXT_AUDIO     = "MUTE/PLAY AUDIO";
+var TEXT_COUNT     = "SHOW/HIDE FLIP NUMBER";
+
+var TEXT_BLACK     = "BLACK";
+var TEXT_WHITE     = "WHITE";
+
+var TEXT_STALL     = "STALL";
+var TEXT_NOMOVES   = "NO MORE MOVES";
+
+var TEXT_HELP1     = "FLIP YOUR OPPONENT'S PIECES BY TRAPPING THEM BETWEEN TWO OF YOUR OWN.";
+var TEXT_HELP2     = "YOUR AIM IS TO OWN MORE PIECES THAN YOUR OPPONENT WHEN THE GAME IS OVER.";
+var TEXT_CREDITS_DEVELOPED = "DEVELOPED BY";
+
+
+var TEXT_SHARE_IMAGE = "200x200.jpg";
+var TEXT_SHARE_TITLE = "Congratulations!";
+var TEXT_SHARE_MSG1 = "You collected <strong>";
+var TEXT_SHARE_MSG2 = " points</strong>!<br><br>Share your score with your friends!";
+var TEXT_SHARE_SHARE1 = "My score is ";
+var TEXT_SHARE_SHARE2 = " points! Can you do better?";
+
