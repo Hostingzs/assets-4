@@ -1,0 +1,13 @@
+{
+"companyName": "Fahrenheit Lab",
+"productName": "Blocky Cars Online",
+"dataUrl": "POKI.data.unityweb",
+"wasmCodeUrl": "POKI.wasm.code.unityweb",
+"wasmFrameworkUrl": "POKI.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#061324",
+"cacheControl": {"default": "must-revalidate"}
+}
